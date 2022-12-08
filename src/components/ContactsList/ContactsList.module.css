@@ -1,0 +1,28 @@
+.list li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.list li  {
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list li p {
+    font-weight: 500;
+}
+
+.list li button {
+    padding: 5px 10px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    transition: all 200ms linear;
+}
+
+.list li button:hover,
+.list li button:focus {
+    transform: scale(1.1);
+    background-color: yellowgreen;
+    color: white;
+}
